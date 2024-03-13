@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="index.css">
+<title>Age Calculator</title>
+
+</head>
+<body>
+<div class="container">
+    <h2>Age Calculator</h2>
+    <div class="image" style="text-align: center;">
+        <img src="https://tse1.mm.bing.net/th?id=OIP.jo-IIoV0dv11ydtIrXQK0AAAAA&pid=Api&P=0&h=180" alt="Logo" style="max-width: 150px;">
+    </div>
+    <form>
+        <label for="dob_day"> Enter your Day:</label>
+        <input type="number" id="dob_day" min="1" max="31" required>
+        <label for="dob_month">Enter your Month:</label>
+        <input type="number" id="dob_month" min="1" max="12" required>
+        <label for="dob_year"> Enter Your Year:</label>
+        <input type="number" id="dob_year" required>
+        <button type="button" onclick="calculateAge()">Calculate Age</button>
+    </form>
+    <div id="result"></div>
+</div>
+
+<script src="index.js">
+  
+</script>
+</body>
+</html>
